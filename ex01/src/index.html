@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Virtual Keyboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Virtual Keyboard</h2>
+      <textarea
+        name=""
+        id="textArea"
+        cols="30"
+        rows="10"
+        placeholder="TEXT AREA"
+      ></textarea>
+      <div class="grid-container">
+        <button type="button" class="one keyboard-key" value="1">1</button>
+        <button type="button" class="two keyboard-key" value="2">2</button>
+        <button type="button" class="three keyboard-key" value="3">3</button>
+        <button type="button" class="four keyboard-key" value="4">4</button>
+        <button type="button" class="five keyboard-key" value="5">5</button>
+        <button type="button" class="six keyboard-key" value="6">6</button>
+        <button type="button" class="seven keyboard-key" value="7">7</button>
+        <button type="button" class="eight keyboard-key" value="8">8</button>
+        <button type="button" class="nine keyboard-key" value="9">9</button>
+        <button type="button" class="zero keyboard-key" value="0">0</button>
+        <button type="button" class="q keyboard-key" value="q">q</button>
+        <button type="button" class="w keyboard-key" value="w">w</button>
+        <button type="button" class="e keyboard-key" value="e">e</button>
+        <button type="button" class="r keyboard-key" value="r">r</button>
+        <button type="button" class="t keyboard-key" value="t">t</button>
+        <button type="button" class="y keyboard-key" value="y">y</button>
+        <button type="button" class="u keyboard-key" value="u">u</button>
+        <button type="button" class="i keyboard-key" value="i">i</button>
+        <button type="button" class="o keyboard-key" value="o">o</button>
+        <button type="button" class="p keyboard-key" value="p">p</button>
+        <button type="button" class="a keyboard-key" value="a">a</button>
+        <button type="button" class="s keyboard-key" value="s">s</button>
+        <button type="button" class="d keyboard-key" value="d">d</button>
+        <button type="button" class="f keyboard-key" value="f">f</button>
+        <button type="button" class="g keyboard-key" value="g">g</button>
+        <button type="button" class="h keyboard-key" value="h">h</button>
+        <button type="button" class="j keyboard-key" value="j">j</button>
+        <button type="button" class="k keyboard-key" value="k">k</button>
+        <button type="button" class="l keyboard-key" value="l">l</button>
+        <button type="button" class="z keyboard-key" value="z">z</button>
+        <button type="button" class="x keyboard-key" value="x">x</button>
+        <button type="button" class="c keyboard-key" value="c">c</button>
+        <button type="button" class="v keyboard-key" value="v">v</button>
+        <button type="button" class="b keyboard-key" value="b">b</button>
+        <button type="button" class="n keyboard-key" value="n">n</button>
+        <button type="button" class="m keyboard-key" value="m">m</button>
+        <button type="button" class="dash keyboard-key" value="-">-</button>
+        <button type="button" class="lodash keyboard-key" value="_">_</button>
+        <button type="button" class="space keyboard-key" value=" ">
+          Space
+        </button>
+        <button id="ok" type="submit" class="OK keyboard-key">OK</button>
+        <button id="enter" type="button" class="enter keyboard-key">
+          Enter
+        </button>
+        <button id="shift" type="button" class="shift keyboard-key">
+          Shift
+        </button>
+        <button
+          type="button"
+          id="capslock"
+          class="capslock keyboard-key"
+          onclick="capsFunction()"
+        >
+          CapsLock
+        </button>
+        <button id="backspace" type="button" class="backspace keyboard-key">
+          Back Sapce
+        </button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

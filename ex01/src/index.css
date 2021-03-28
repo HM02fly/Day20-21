@@ -1,0 +1,254 @@
+html,
+body {
+  /* height: 100%; */
+  margin: 0;
+}
+
+h2 {
+  color: #030625;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  height: fit-content;
+}
+
+#text_area {
+  resize: none;
+  width: 90%;
+  max-width: 790px;
+  height: 200px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(86, 123, 224);
+  box-shadow: 1px 0.5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    352deg,
+    rgba(255, 255, 255) 10%,
+    rgb(201, 222, 253) 130%
+  );
+}
+textarea {
+  resize: none;
+  width: 90%;
+  max-width: 790px;
+
+  /* height: 50vh; */
+  padding: 5px 0;
+  border: 1px solid #030625;
+  justify-self: center;
+}
+.grid-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  transition: bottom 0.4s;
+  height: 33vh;
+  width: 100%;
+  padding: 5px 0;
+  /* background-color: #030625; */
+  user-select: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'one two three four five six seven eight nine zero backspace backspace'
+    'q w e r t y u i o p backspace backspace'
+    'a s d f g h j k l capslock capslock capslock'
+    'z x c v b n m dash lodash shift shift shift'
+    'space space space space space space space space space OK enter enter';
+}
+
+.keyboard-key {
+  background: #030625;
+  color: aliceblue;
+}
+
+.keyboard-key:active {
+  background: rgb(41, 13, 68);
+}
+
+.active {
+  background: rgb(48, 20, 75);
+  color: aliceblue;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.q {
+  grid-area: q;
+}
+
+.w {
+  grid-area: w;
+}
+
+.e {
+  grid-area: e;
+}
+
+.r {
+  grid-area: r;
+}
+
+.t {
+  grid-area: t;
+}
+
+.y {
+  grid-area: y;
+}
+
+.u {
+  grid-area: u;
+}
+
+.i {
+  grid-area: i;
+}
+
+.o {
+  grid-area: o;
+}
+
+.p {
+  grid-area: p;
+}
+
+.a {
+  grid-area: a;
+}
+
+.s {
+  grid-area: s;
+}
+
+.d {
+  grid-area: d;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.j {
+  grid-area: j;
+}
+
+.k {
+  grid-area: k;
+}
+
+.l {
+  grid-area: l;
+}
+
+.z {
+  grid-area: z;
+}
+
+.x {
+  grid-area: x;
+}
+
+.c {
+  grid-area: c;
+}
+
+.v {
+  grid-area: v;
+}
+
+.b {
+  grid-area: b;
+}
+
+.n {
+  grid-area: n;
+}
+
+.m {
+  grid-area: m;
+}
+
+.dash {
+  grid-area: dash;
+}
+
+.lodash {
+  grid-area: lodash;
+}
+
+.space {
+  grid-area: space;
+}
+
+.enter {
+  grid-area: enter;
+}
+
+.shift {
+  grid-area: shift;
+}
+
+.capslock {
+  grid-area: capslock;
+}
+
+.backspace {
+  grid-area: backspace;
+}
